@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Лунабель</string>
+
+    <!-- Tabs / actions -->
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_calendar">Календарь</string>
+    <string name="tab_insights">Аналитика</string>
+    <string name="tab_history">История</string>
+    <string name="tab_settings">Настройки</string>
+    <string name="action_log_today">Отметить сегодня</string>
+    <string name="action_save">Сохранить</string>
+    <string name="action_cancel">Отмена</string>
+    <string name="action_back">Назад</string>
+    <string name="action_add_period">Добавить менструацию</string>
+
+    <!-- Today -->
+    <string name="today_empty_title">Добро пожаловать</string>
+    <string name="today_empty_subtitle">Отметьте первую менструацию, чтобы видеть прогнозы и аналитику</string>
+    <string name="today_empty_cta">Отметить менструацию</string>
+    <string name="today_day_label">День</string>
+    <string name="card_next_period">Следующая менструация</string>
+    <string name="card_fertile_window">Фертильное окно</string>
+    <string name="due_today">Ожидается сегодня</string>
+    <string name="ovulation_on">Овуляция %1$s</string>
+    <string name="section_insights">Аналитика</string>
+    <string name="confidence_prefix">Достоверность: %1$s</string>
+    <plurals name="in_days">
+        <item quantity="one">через %d день</item>
+        <item quantity="few">через %d дня</item>
+        <item quantity="many">через %d дней</item>
+        <item quantity="other">через %d дня</item>
+    </plurals>
+
+    <!-- Phases -->
+    <string name="phase_menstrual">Менструальная</string>
+    <string name="phase_follicular">Фолликулярная</string>
+    <string name="phase_ovulatory">Овуляторная</string>
+    <string name="phase_luteal">Лютеиновая</string>
+    <string name="phase_unknown">Неизвестно</string>
+
+    <!-- Flow -->
+    <string name="flow_none">Нет</string>
+    <string name="flow_spotting">Мажущие выделения</string>
+    <string name="flow_light">Скудные</string>
+    <string name="flow_medium">Умеренные</string>
+    <string name="flow_heavy">Обильные</string>
+
+    <!-- Intensity -->
+    <string name="intensity_none">Нет</string>
+    <string name="intensity_mild">Слабая</string>
+    <string name="intensity_moderate">Умеренная</string>
+    <string name="intensity_severe">Сильная</string>
+
+    <!-- Confidence -->
+    <string name="confidence_none">нет</string>
+    <string name="confidence_low">низкая</string>
+    <string name="confidence_medium">средняя</string>
+    <string name="confidence_high">высокая</string>
+
+    <!-- Cervical mucus -->
+    <string name="mucus_none">Сухо</string>
+    <string name="mucus_sticky">Клейкая</string>
+    <string name="mucus_creamy">Кремообразная</string>
+    <string name="mucus_watery">Водянистая</string>
+    <string name="mucus_egg_white">Яичный белок</string>
+
+    <!-- LH -->
+    <string name="lh_not_taken">Не выполнен</string>
+    <string name="lh_negative">Отрицательный</string>
+    <string name="lh_positive">Положительный</string>
+
+    <!-- Sexual activity -->
+    <string name="sex_none">Нет</string>
+    <string name="sex_protected">С защитой</string>
+    <string name="sex_unprotected">Без защиты</string>
+
+    <!-- Calendar -->
+    <string name="prev_month">Предыдущий месяц</string>
+    <string name="next_month">Следующий месяц</string>
+    <string name="legend_period">Менструация</string>
+    <string name="legend_predicted">Прогноз менструации</string>
+    <string name="legend_fertile">Фертильное окно</string>
+    <string name="legend_ovulation">Овуляция</string>
+
+    <!-- Log -->
+    <string name="log_flow">Выделения</string>
+    <string name="log_symptoms">Симптомы</string>
+    <string name="log_mucus">Цервикальная слизь</string>
+    <string name="log_lh">Тест на овуляцию (ЛГ)</string>
+    <string name="log_activity">Половая активность</string>
+    <string name="log_notes">Заметки</string>
+
+    <!-- Symptom categories -->
+    <string name="cat_pain">Боль</string>
+    <string name="cat_physical">Физические</string>
+    <string name="cat_mood">Настроение</string>
+    <string name="cat_energy">Энергия и сон</string>
+    <string name="cat_digestion">Пищеварение</string>
+    <string name="cat_other">Прочее</string>
+
+    <!-- Symptoms -->
+    <string name="sym_cramps">Спазмы</string>
+    <string name="sym_headache">Головная боль</string>
+    <string name="sym_back_pain">Боль в спине</string>
+    <string name="sym_breast_tenderness">Чувствительность груди</string>
+    <string name="sym_ovulation_pain">Боль при овуляции</string>
+    <string name="sym_bloating">Вздутие живота</string>
+    <string name="sym_fatigue">Усталость</string>
+    <string name="sym_acne">Акне</string>
+    <string name="sym_nausea">Тошнота</string>
+    <string name="sym_cravings">Тяга к еде</string>
+    <string name="sym_irritability">Раздражительность</string>
+    <string name="sym_anxiety">Тревожность</string>
+    <string name="sym_low_mood">Подавленное настроение</string>
+    <string name="sym_mood_swings">Перепады настроения</string>
+    <string name="sym_high_energy">Высокая энергичность</string>
+    <string name="sym_low_energy">Упадок сил</string>
+    <string name="sym_insomnia">Бессонница</string>
+    <string name="sym_constipation">Запор</string>
+    <string name="sym_diarrhea">Диарея</string>
+    <string name="sym_high_libido">Высокое либидо</string>
+    <string name="sym_low_libido">Низкое либидо</string>
+
+    <!-- Insights -->
+    <string name="insights_empty">Отметьте менструацию, чтобы видеть аналитику</string>
+    <string name="insights_header">День %1$d · %2$s</string>
+    <string name="insights_none_today">Сегодня ничего примечательного</string>
+    <string name="disclaimer_estimates_short">Прогнозы являются оценками на основе вашей истории, а не измерениями</string>
+    <string name="insight_needs_more_data">Нужно больше данных</string>
+    <string name="insight_low_confidence">Низкая достоверность</string>
+    <string name="insight_irregular">Нерегулярные циклы</string>
+    <string name="insight_fertile_window">Фертильное окно</string>
+    <string name="insight_ovulation_soon">Скоро овуляция</string>
+    <string name="insight_ovulation_today">Предполагаемая овуляция сегодня</string>
+    <string name="insight_period_due">Ожидается менструация</string>
+    <string name="insight_period_late">Возможна задержка менструации</string>
+    <string name="insight_pms_likely">Вероятен ПМС</string>
+    <string name="insight_out_of_range">Длительность цикла вне типичного диапазона</string>
+    <string name="insight_needs_more_data_desc">Отметьте хотя бы три цикла для значимых прогнозов</string>
+    <string name="insight_low_confidence_desc">Ваши недавние циклы сильно различаются, поэтому прогнозы менее точны</string>
+    <string name="insight_irregular_desc">Длительность вашего цикла колеблется на неделю и более. Возможно, стоит обсудить это с врачом</string>
+    <string name="insight_fertile_window_desc">Вы находитесь в предполагаемом фертильном окне. Время овуляции варьируется; при необходимости подтвердите его тестами на ЛГ</string>
+    <string name="insight_ovulation_soon_desc">Предполагаемая овуляция наступит в ближайшие день-два</string>
+    <string name="insight_ovulation_today_desc">Сегодня ваш предполагаемый день овуляции. Это оценка, а не измерение</string>
+    <string name="insight_period_due_desc">Менструация ожидается примерно сейчас</string>
+    <string name="insight_period_late_desc">Менструация наступает позже прогноза. Циклы естественным образом варьируются</string>
+    <string name="insight_pms_likely_desc">Симптомы ПМС часто появляются за несколько дней до менструации</string>
+    <string name="insight_out_of_range_desc">Цикл короче 21 или длиннее 35 дней может быть поводом обсудить это с врачом</string>
+
+    <!-- History -->
+    <string name="history_empty">Отметьте хотя бы две менструации, чтобы видеть статистику</string>
+    <string name="history_title">Статистика</string>
+    <string name="stat_avg_cycle">Средний цикл (дни)</string>
+    <string name="stat_avg_period">Средняя менструация (дни)</string>
+    <string name="stat_range">Диапазон цикла</string>
+    <string name="stat_regularity">Регулярность</string>
+    <string name="regularity_irregular">Нерегулярный</string>
+    <string name="regularity_regular">Регулярный</string>
+    <string name="chart_cycle_lengths">Длительность недавних циклов</string>
+    <string name="history_top_symptoms">Самые частые симптомы</string>
+
+    <!-- Settings -->
+    <string name="settings_appearance">Внешний вид</string>
+    <string name="settings_theme">Тема</string>
+    <string name="settings_dynamic_color">Динамические цвета</string>
+    <string name="settings_language">Язык</string>
+    <string name="lang_system">Системный</string>
+    <string name="lang_ru">Русский</string>
+    <string name="lang_en">Английский</string>
+    <string name="settings_reminders">Напоминания</string>
+    <string name="settings_period_reminder">Напоминание о менструации</string>
+    <string name="settings_fertile_reminder">Напоминание о фертильном окне</string>
+    <string name="settings_privacy">Конфиденциальность</string>
+    <string name="settings_app_lock">Запрашивать разблокировку при открытии</string>
+    <string name="settings_data">Данные</string>
+    <string name="settings_export">Экспорт резервной копии (JSON)</string>
+    <string name="settings_import">Импорт резервной копии (JSON)</string>
+    <string name="settings_about">О приложении и оговорки</string>
+    <string name="theme_system">Системная</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="export_done">Резервная копия экспортирована</string>
+    <string name="import_done">Резервная копия импортирована</string>
+    <string name="import_unsupported">Версия резервной копии не поддерживается</string>
+    <string name="import_failed">Не удалось импортировать резервную копию</string>
+    <string name="about_offline">Приложение работает полностью офлайн. Ваши данные никогда не покидают устройство</string>
+
+    <!-- Disclaimers -->
+    <string name="disclaimer_title">Прежде чем начать</string>
+    <string name="disclaimer_contra_title">Не является средством контрацепции</string>
+    <string name="disclaimer_contra_body">Это приложение предназначено только для отслеживания и информирования. Оно не является методом контрацепции и не должно использоваться для предотвращения беременности. Прогнозирование по календарному методу ненадёжно для контрацепции (примерно от 20 до 24 из каждых 100 человек, полагающихся на него, беременеют в течение года). Используйте проверенный метод и проконсультируйтесь со специалистом здравоохранения</string>
+    <string name="disclaimer_estimates_title">Только оценки</string>
+    <string name="disclaimer_estimates_body">Все прогнозы (следующая менструация, овуляция, фертильное окно) являются оценками на основе вашей зарегистрированной истории и средних популяционных значений, а не измерениями. Точность повышается после нескольких циклов. Овуляция особенно изменчива; подтверждайте её тестами на ЛГ, измерением базальной температуры тела или по цервикальной слизи</string>
+    <string name="disclaimer_clinician_title">Проконсультируйтесь с врачом</string>
+    <string name="disclaimer_clinician_body">Это приложение не предоставляет медицинских рекомендаций и не может диагностировать или лечить какое-либо состояние. Если вы замечаете циклы короче 21 или длиннее 35 дней, кровотечение дольше 8 дней, отсутствие менструации в течение 90 дней или более, либо любое изменение, которое вас беспокоит, обратитесь к квалифицированному специалисту здравоохранения</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_welcome_title">Настройте свой цикл</string>
+    <string name="onboarding_welcome_subtitle">Несколько настроек по умолчанию для персонализации прогнозов. Вы сможете изменить их позже</string>
+    <string name="onboarding_cycle_length">Средняя длительность цикла</string>
+    <string name="onboarding_period_length">Средняя длительность менструации</string>
+    <string name="onboarding_goal">Ваша цель</string>
+    <string name="onboarding_accept">Я понимаю, что это приложение не является средством контрацепции, а прогнозы являются оценками</string>
+    <string name="onboarding_start">Начать</string>
+    <string name="onboarding_accept_continue">Я понимаю и принимаю</string>
+    <string name="goal_tracking">Отслеживать мой цикл</string>
+    <string name="goal_ttc">Планирование беременности</string>
+    <string name="goal_avoid">Осознание цикла</string>
+    <!-- Lock / notifications -->
+    <string name="lock_title">Цикл заблокирован</string>
+    <string name="lock_subtitle">Разблокируйте, чтобы продолжить</string>
+    <string name="lock_unlock">Разблокировать</string>
+    <string name="channel_period">Напоминания о менструации</string>
+    <string name="channel_fertile">Фертильное окно</string>
+    <string name="notif_period_title">Скоро менструация</string>
+    <string name="notif_period_body">По прогнозу менструация около %1$s</string>
+    <string name="notif_fertile_title">Фертильное окно</string>
+    <string name="notif_fertile_body">Фертильное окно начинается около %1$s</string>
+    <string name="expected_window">Ожидается %1$s – %2$s</string>
+    <string name="notif_action_open">Открыть</string>
+    <string name="settings_reminder_lead">Напоминать за столько дней</string>
+    <string name="settings_custom_title">Свой заголовок (необязательно)</string>
+    <string name="settings_custom_text">Свой текст (необязательно)</string>
+    <string name="settings_custom_hint">Подсказка: {date} подставит дату прогноза</string>
+    <string name="settings_save_reminders">Сохранить текст напоминаний</string>
+    <string name="reminders_saved">Текст напоминаний сохранён</string>
+    <!-- Per-phase reminders -->
+    <string name="channel_cycle">Напоминания о цикле</string>
+    <string name="rem_phase_menstrual">Менструальная фаза</string>
+    <string name="rem_phase_follicular">Фолликулярная фаза</string>
+    <string name="rem_phase_ovulatory">Овуляция / фертильность</string>
+    <string name="rem_phase_luteal">Лютеиновая фаза</string>
+    <string name="notif_menstrual_title">Скоро менструация</string>
+    <string name="notif_menstrual_body">По прогнозу менструация около %1$s</string>
+    <string name="notif_follicular_title">Фолликулярная фаза</string>
+    <string name="notif_follicular_body">Фолликулярная фаза начинается около %1$s</string>
+    <string name="notif_ovulatory_title">Фертильное окно</string>
+    <string name="notif_ovulatory_body">Овуляция ожидается около %1$s</string>
+    <string name="notif_luteal_title">Лютеиновая фаза</string>
+    <string name="notif_luteal_body">Лютеиновая фаза начинается около %1$s</string>
+    <string name="legend_intimacy">Половой контакт</string>
+    <string name="select_dates_hint">Коснитесь первого и последнего дня</string>
+    <string name="settings_theme_color">Цвет темы</string>
+    <string name="settings_theme_color_default">По умолчанию</string>
+    <string name="settings_theme_color_custom">Свой цвет…</string>
+    <string name="color_done">Готово</string>
+    <string name="color_cancel">Отмена</string>
+    <string name="action_period_started">Менструация началась</string>
+    <string name="card_delay">Задержка</string>
+    <string name="card_delay_hint">Нажмите, если менструация началась</string>
+    <string name="delay_days_fmt">%1$d дн.</string>
+    <string name="history_empty_title">Пока нет статистики</string>
+    <string name="action_period_continue">Менструация продолжается</string>
+    <string name="delay_marked">Задержка отмечена</string>
+    <string name="insights_empty_title">Пока нет аналитики</string>
+    <string name="action_period_cancel">Отменить месячные</string>
+    <string name="cancel_registered_delay">Учтено как задержка — прогноз пересчитан</string>
+    <string name="about_developer">Разработчик</string>
+    <string name="today_delay_label">дней задержки</string>
+    <string name="confirm_period_started">Отметить начало менструации сегодня?</string>
+    <string name="confirm_period_continue">Отметить, что менструация продолжается?</string>
+    <string name="confirm_cancel_title">Отменить месячные?</string>
+    <string name="confirm_cancel_reason">Выберите причину отмены:</string>
+    <string name="reason_delay">Задержка</string>
+    <string name="reason_mistake">Ошибочная отметка</string>
+    <string name="action_confirm">Подтвердить</string>
+    <string name="cancel_removed">Отметка удалена</string>
+    <string name="log_delete">Удалить запись</string>
+    <string name="confirm_delete_log">Удалить запись за этот день?</string>
+</resources>
