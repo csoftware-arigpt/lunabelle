@@ -14,36 +14,31 @@
 
   <rect width="1280" height="400" fill="url(#bg)"/>
 
-  <!-- soft decorative blobs -->
   <circle cx="1150" cy="60" r="160" fill="#FFD1E8" opacity="0.22"/>
   <circle cx="905" cy="405" r="120" fill="#C9A0FF" opacity="0.26"/>
   <circle cx="1245" cy="150" r="85" fill="#7FE9D2" opacity="0.30"/>
   <circle cx="1040" cy="330" r="46" fill="#FFFFFF" opacity="0.16"/>
 
-  <!-- decorative hearts -->
   <path transform="translate(1095,70) scale(2.0)" fill="#FFFFFF" opacity="0.5"
         d="M8 14 C8 14 1 9 1 4.6 A3.4 3.4 0 0 1 8 4 A3.4 3.4 0 0 1 15 4.6 C15 9 8 14 8 14 Z"/>
   <path transform="translate(1190,250) scale(1.4)" fill="#FFFFFF" opacity="0.45"
         d="M8 14 C8 14 1 9 1 4.6 A3.4 3.4 0 0 1 8 4 A3.4 3.4 0 0 1 15 4.6 C15 9 8 14 8 14 Z"/>
 
-  <!-- app icon tile + white droplet -->
   <rect x="90" y="96" width="208" height="208" rx="54" fill="url(#tile)"/>
   <path transform="translate(122,128) scale(6)" fill="#FFFFFF"
         d="M12 3 C12 3 5.5 11 5.5 15 a6.5 6.5 0 1 0 13 0 C18.5 11 12 3 12 3 Z"/>
 
-  <!-- wordmark -->
   <text x="342" y="190" fill="#FFFFFF" font-size="112" font-weight="800" letter-spacing="-3">Lunabelle</text>
-  <text x="348" y="246" fill="#FFFFFF" font-size="31" font-weight="700" opacity="0.96">Милый приватный трекер цикла · Material 3 Expressive</text>
+  <text x="348" y="246" fill="#FFFFFF" font-size="31" font-weight="700" opacity="0.96">A cute, private cycle tracker · Material 3 Expressive</text>
 
-  <!-- feature pills -->
   <g font-size="23" font-weight="800" fill="#FFFFFF" text-anchor="middle">
     <rect x="346" y="278" width="150" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
-    <text x="421" y="308">Офлайн</text>
-    <rect x="510" y="278" width="180" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
-    <text x="600" y="308">Прогнозы</text>
-    <rect x="704" y="278" width="120" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
-    <text x="764" y="308">Мило</text>
-    <rect x="838" y="278" width="150" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
-    <text x="913" y="308">RU · EN</text>
+    <text x="421" y="308">Offline</text>
+    <rect x="510" y="278" width="205" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
+    <text x="612" y="308">Predictions</text>
+    <rect x="729" y="278" width="110" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
+    <text x="784" y="308">Cute</text>
+    <rect x="853" y="278" width="150" height="46" rx="23" fill="#FFFFFF" opacity="0.18"/>
+    <text x="928" y="308">RU · EN</text>
   </g>
 </svg>
