@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="Lunabelle" width="100%">
+</p>
+
 # Lunabelle 🌸
 
 A cute, fully-offline menstrual cycle tracker for Android — Jetpack Compose + Material 3 Expressive.
